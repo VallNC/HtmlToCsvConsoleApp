@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JT+MhkrlGkDG1aq7x2kgODCJoWwckVTeguD5V+Tpkljlqmm6RgnWr4LOeV2jPBKpAwLV34+NuCzY8/yC6QxctA==",
+  "success": true,
+  "projectFilePath": "D:\\.net apps\\HtmlToCsv\\HtmlToCsv.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rkitt\\.nuget\\packages\\csvhelper\\32.0.3\\csvhelper.32.0.3.nupkg.sha512",
+    "C:\\Users\\rkitt\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512"
+  ],
+  "logs": []
+}
