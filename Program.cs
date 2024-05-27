@@ -21,7 +21,7 @@ class Program
         var htmlWeb = new HtmlWeb();
 
             var csvRow = new List<CsvRow>();
-
+              int maxSize=0;
           
 
         try{
@@ -84,7 +84,8 @@ class Program
                         }
                        
                 }
-                
+                if (Lines.Count>maxSize)
+                maxSize=Lines.Count;
                  csvRow.Add(new CsvRow{Name = Temp,TextList = Lines});
                
             }
@@ -95,11 +96,23 @@ class Program
                 {
                     System.Console.WriteLine(csvRow[ic].ToString());
                 }
-                using (var writer = new StreamWriter($".\\test.csv"))
-                foreach(var itemList in csvRow){                              
+                using (var writer = new StreamWriter($".\\CsvReadyFile.csv"))
                 {
-                    string csv = itemList.Name+","+String.Join(",", itemList.TextList.Select(x => x.ToString()).ToArray()); 
-                    writer.WriteLine(csv);          
+                    string names="";
+                foreach(var itemList in csvRow)
+                {                              
+                
+                    names = names + itemList.Name.Replace(',','.') + ",";
+                    //string csv = itemList.Name+","+String.Join(",", itemList.TextList.Select(x => x.ToString()).ToArray()); 
+                    //writer.WriteLine(csv);                        
+                }
+                writer.WriteLine(names);
+                for (int i = 0; i < maxSize; i++)
+                {
+                    string combinedString = string.Join(", ", csvRow
+                    //.Where(list => list.TextList.Count > i)
+                    .Select(list => list.TextList.Count > i? list.TextList[i]:string.Empty));
+                    writer.WriteLine(combinedString);
                 }
                 }
         }

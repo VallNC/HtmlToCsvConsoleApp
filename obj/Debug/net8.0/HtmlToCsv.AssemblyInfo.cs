@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HtmlToCsv")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bab2f9e733ae0974716e3c72476280b16ad46237")]
 [assembly: System.Reflection.AssemblyProductAttribute("HtmlToCsv")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HtmlToCsv")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

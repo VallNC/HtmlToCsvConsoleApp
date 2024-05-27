@@ -16,3 +16,4 @@ D:\.net apps\HtmlToCsv\obj\Debug\net8.0\refint\HtmlToCsv.dll
 D:\.net apps\HtmlToCsv\obj\Debug\net8.0\HtmlToCsv.pdb
 D:\.net apps\HtmlToCsv\obj\Debug\net8.0\HtmlToCsv.genruntimeconfig.cache
 D:\.net apps\HtmlToCsv\obj\Debug\net8.0\ref\HtmlToCsv.dll
+D:\.net apps\HtmlToCsv\obj\Debug\net8.0\HtmlToCsv.sourcelink.json
